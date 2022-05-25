@@ -263,8 +263,8 @@ footer {
     }
 
     #center-about {
+        clear: both;   
         width: 100%;
-        clear: both;
         float: left;
         padding: 0;
     }
@@ -274,7 +274,6 @@ footer {
         clear: both;
         height: 150px;
         padding: 0;
-        text-align: center;
     }
 
     hr {
@@ -285,39 +284,39 @@ footer {
 /* for medium screens size from 950px wide and down*/
 @media screen and (max-width: 950px) {
     #menu {
-        clear: both;
+        clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
-}
 
-#cover-text {
-    left: 0;
-}
+    #cover-text {
+        left: 0;
+    }
 
-#club-ethos {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-}
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-.left-about-heading, .right-about-heading {
-    width: inherit;
-}
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
 
-.left-about-heading h2, .right-about-heading h2{
-    width: 100%;
-    text-align: center;
-}
-.left-about-heading p, .right-about-heading p{
-    text-align: center;
-    padding: 0 20px;
-}
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px;
+    }
 
-#photos {
-    column-count: 3;
+    #photos {
+        column-count: 3;
+    }
 }
 
 @media screen and (max-width: 800px) {
