@@ -190,6 +190,7 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;  
+    text-align: center;
 }
 
 #times div {
